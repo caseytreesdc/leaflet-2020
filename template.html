@@ -16,7 +16,7 @@
       }
 
 	  main {
-		  padding: 3%;
+		  /* padding: 3%; */
 		  margin: 0 12.5%;
 		  background-color: rgb(255, 255, 255);
 	  }
@@ -29,7 +29,7 @@
         text-align: center;
         font-size: 0.7rem;
         color: rgb(175, 175, 175);
-        margin: 0 0;
+        /* margin: 0 0; */
       }
 
       .view-online {
@@ -50,28 +50,48 @@
         font-size: 4em;
         letter-spacing: 0.8rem;
         color: rgb(75, 123, 77);
-        margin: 0 0 0 0;
       }
 
       .subheading {
-        margin: 0 0 5% 0;
         letter-spacing: 0.8rem;
       }
 
       .article {
         display: flex;
       }
+	  .article__img-div,
+	  .article__txt-div,
+	  .button-container__p-r,
+	  .button-container__p-l {
+		  width: 50%;
+		  margin: 3%;
+	  }
 
+	  .article__img-div {
+		  display: flex;
+		  justify-content: center;
+	  }
 	  .article-1__heading {
 		font-size: 1.2rem;
-		margin: 0 0 0 7%;
-
 	  }
 
 	  .article-1__sub {
 		font-size: 1rem;
-		margin: 5% 0 0 7%;
 	  }
+
+	  .button-container {
+		  display: flex;
+		  justify-content: space-between;
+	  }
+
+	  .button-container__p-l,
+	  .button-container__p-r {
+		  background-color: rgb(43, 101, 58);
+		  text-align: center;
+		  color: rgb(255, 255, 255);
+	  }
+
+
     </style>
   </head>
 
@@ -90,49 +110,49 @@
     <h4 class="subheading">A CASEY TREES NEWSLETTER</h4>
     <!-- 1st ARTICLE -->
     <div class="article">
-      <div>
+      <div class="article__img-div">
         <img
           src="https://caseytrees.org/wp-content/uploads/2020/01/placeholder.png"
         />
       </div>
-      <div>
+      <div class="article__txt-div">
         <p class="article-1__heading">Think you know D.C.'s trees? Test your knowledge with our quiz!</p>
         <p class="article-1__sub">For the tree nerds, by the tree nerds...</p>
       </div>
     </div>
-    <div>
-      <div>
+    <div class="button-container">
+      <div class="button-container__p-l">
         <p>DO NOT WATER</p>
         <p>It's been so rainy!</p>
       </div>
-      <div>
+      <div class="button-container__p-r">
         <p>TAKE THE PLEDGE</p>
         <p>& GET A FREE RAIN GAUGE</p>
       </div>
 	</div>
 	<!-- 2nd ARTICLE -->
     <div class="article">
-      <div>
+      <div class="article__img-div">
         <img
         src="https://caseytrees.org/wp-content/uploads/2020/01/placeholder-1.png"
         />
       </div>
-      <div>
+      <div class="article__txt-div">
         <p>HERE GOES THE LEAFLET ARTICLE 2 TITLE</p>
         <p>
-          Repeatable content blocks. You can also <a>get alittle fancy</a>:
+          Repeatable content blocks. You can also <a>get a little fancy</a>:
           repeat blocks and remove all text to make...
         </p>
       </div>
     </div>
+	<!-- 3rd ARTICLE -->
     <div class="article">
-      <div>
+      <div class="article__img-div">
         <img
           src="https://caseytrees.org/wp-content/uploads/2020/01/placeholder-1.png"
         />
       </div>
-      <!-- 3rd ARTICLE -->
-      <div>
+      <div class="article__txt-div">
         <p>HERE GOES THE LEAFLET ARTICLE 3 TITLE</p>
         <p>
           Repeatable content blocks. You can also <a>get alittle fancy</a>:
