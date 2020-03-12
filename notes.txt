@@ -1,0 +1,5 @@
+style="text-decoration: none; border: 0px solid; width: 600px; max-width: 580px; display: block;"
+
+<img align="center" alt="Image" border="0" class="center" src="https://caseytrees.org/wp-content/uploads/2020/01/2020_Refresh_Title.jpg" title="Image">
+
+<img align="center" alt="Image" border="0" class="center" src="" title="Image">
