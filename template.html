@@ -16,8 +16,7 @@
       }
 
       main {
-        /* padding: 3%; */
-        margin: 0 12.5%;
+        margin: 0 25%;
         background-color: rgb(255, 255, 255);
       }
 
@@ -62,6 +61,7 @@
       .article {
         display: flex;
       }
+
       .article__img-div,
       .article__txt-div,
       .button-container__p-r,
@@ -74,6 +74,12 @@
         display: flex;
         justify-content: center;
       }
+
+      /* .article__img {
+        height: 100%;
+        width: 100%;
+      }
+       */
       .article-1__heading {
         font-size: 1.2rem;
       }
@@ -128,7 +134,7 @@
       .social-logos__container {
         display: flex;
         justify-content: space-around;
-        margin: 2%
+        margin: 2%;
       }
       .social-logos {
         height: 25%;
@@ -136,8 +142,79 @@
       }
 
       .copyright {
-        font-size: .6rem;
+        font-size: 0.6rem;
         color: rgb(175, 175, 175);
+      }
+
+      /* queries for iPhone X */
+      @media screen and (max-device-width: 375px) {
+        main {
+          margin: 0 0 0 0;
+        }
+        .the-leaflet {
+          font-size: 1.5rem;
+        }
+        .subheading {
+          font-size: 0.5rem;
+          letter-spacing: 0em;
+          margin: 0 0;
+        }
+        .article {
+          display: block;
+        }
+        .button-container {
+          display: block;
+        }
+        .article__img-div,
+        .article__txt-div,
+        .button-container__p-r,
+        .button-container__p-l {
+          width: 80%;
+          margin: 3%;
+        }
+        /* .article__img {
+          height: 200px;
+          width: 200px;
+        } */
+
+        .article__txt-div {
+          text-align: center;
+        }
+      }
+
+      /* queries for other iPhones */
+      @media screen and (max-device-width: 414px) {
+        main {
+          margin: 0 0 0 0;
+        }
+        .the-leaflet {
+          font-size: 1.5rem;
+        }
+        .subheading {
+          font-size: 0.5rem;
+          letter-spacing: 0em;
+        }
+        .article {
+          display: block;
+        }
+        .button-container {
+          display: block;
+        }
+        .article__img-div,
+        .article__txt-div,
+        .button-container__p-r,
+        .button-container__p-l {
+          width: 90%;
+          margin: 3%;
+        }
+        /* .article__img {
+          height: 300px;
+          width: 300px;
+        } */
+
+        .article__txt-div {
+          text-align: center;
+        }
       }
     </style>
   </head>
@@ -158,7 +235,7 @@
       <!-- 1st ARTICLE -->
       <div class="article">
         <div class="article__img-div">
-          <img
+          <img class="article__img"
             src="https://caseytrees.org/wp-content/uploads/2020/01/placeholder.png"
           />
         </div>
@@ -182,7 +259,7 @@
       <!-- 2nd ARTICLE -->
       <div class="article">
         <div class="article__img-div">
-          <img
+          <img class="article__img"
             src="https://caseytrees.org/wp-content/uploads/2020/01/placeholder-1.png"
           />
         </div>
@@ -200,7 +277,7 @@
       <!-- 3rd ARTICLE -->
       <div class="article">
         <div class="article__img-div">
-          <img
+          <img class="article__img"
             src="https://caseytrees.org/wp-content/uploads/2020/01/placeholder-1.png"
           />
         </div>
@@ -222,28 +299,36 @@
           src="https://caseytrees.org/wp-content/uploads/2019/01/black-tree-logo.png"
         />
         <div class="social-logos__container">
-          <img class="social-logos"
+          <img
+            class="social-logos"
             src="https://caseytrees.org/wp-content/uploads/2018/11/facebook-logo13259.png"
           />
-          <img class="social-logos"
+          <img
+            class="social-logos"
             src="https://caseytrees.org/wp-content/uploads/2018/11/twitter-logo.png"
           />
-          <img class="social-logos"
+          <img
+            class="social-logos"
             src="https://caseytrees.org/wp-content/uploads/2018/11/instagram-logo.png"
           />
         </div>
         <p>Casey Trees | 3030 12th Street NE | Washington, DC 20017</p>
         <p>
-          <a class="view-online"
+          <a
+            class="view-online"
             href="http://go.pardot.com/emailPreference/e/epc/685253/RW7ZCziXnkI2OinHXXAt1LPuBDlRvxpW5_Iyx3UPkgU/181"
             >update subscription preferences</a
           >
           |
-          <a class="view-online" href="http://go.pardot.com/unsubscribe/u/685253"
+          <a
+            class="view-online"
+            href="http://go.pardot.com/unsubscribe/u/685253"
             >unsubscribe from all emails</a
           >
         </p>
-        <p class="copyright">Copyright © 2020 Casey Trees, All rights reserved.</p>
+        <p class="copyright">
+          Copyright © 2020 Casey Trees, All rights reserved.
+        </p>
       </div>
     </main>
   </body>
