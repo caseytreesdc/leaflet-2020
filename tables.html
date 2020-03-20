@@ -1,100 +1,192 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <title>The Leaflet 2020</title>
     <style>
-        table {
-            border: solid red 1px;
-        }
-        
-        tr {
-            border: solid green 1px;
-        }
-        
-        td {
-            border: solid blue 1px;
-        }
-    </style>
-</head>
+      /* table {
+        border: solid red 1px;
+      }
 
-<body>
-    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
-        <tr>
-            <td align="center" valign="top">
-                <table border="0" cellpadding="0" cellspacing="0" width="600" id="emailContainer">
-                    <tr>
-                        <td align="center" valign="top">
-                            <table border="0" cellpadding="8" cellspacing="0" width="100%" id="emailHeader">
-                                <tr>
-                                    <td align="center" valign="top">
-                                        <p>
-                                            Email not displaying correctly?
-                                            <a href="%%view_online%%">View Online.</a>
-                                        </p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center" valign="top">
-                            <table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailHeader">
-                                <tr>
-                                    <td align="center" valign="top">
-                                        <h1 style="margin: 20px 0 0 0; font-family:sans-serif; font-size: 60px; letter-spacing: 3px; color: rgb(60,129,78);">
-                                            <span style="color: rgb(194,207,190)">THE</span>LEAFLET
-                                        </h1>
-                                        <p style="margin: 0 0 0 0; font-family:sans-serif; font-size: 14px; color: rgb(86,86,86); letter-spacing: 5px;">
-                                            A CASEY TREES NEWSLETTER
-                                        </p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <table border="0" cellpadding="0" cellspacing="0" style="background-color:#FFFFFF; border:1px solid #CCCCCC;">
-                                <tr>
-                                    <td align="center" width="50%" style="padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px;">
-                                        <img src="http://placekitten.com/g/260/260" class="captionImage" style="display:block;" />
-                                    </td>
-                                    <td valign="top" style="color:#505050; font-family:Georgia, sans-serif; font-size:12px; line-height:100%; padding-top:10px; padding-right;10px; padding-bottom:10px; padding-left:10px;">
-                                        <table>
-                                            <tr>
-                                                <td valign="middle" width="100%">
-                                                    <p>
-                                                        The Eiffel Tower, designed by Gustave Eiffel and built in 1889, is located in Paris, France. For 41 years, it was the tallest man-made structure in the world.
-                                                    </p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <p>
-                                                        The Eiffel Tower, designed by Gustave Eiffel and built in 1889, is located in Paris, France. For 41 years, it was the tallest man-made structure in the world.
-                                                    </p>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateColumns">
-                                <tr>
-                                    <td align="center" valign="top" width="50%" class="templateColumnContainer">
-                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
-                                            <tr>
-                                                <td valign="top" class="leftColumnContent">
-                                                    <table border="0" cellpadding="0" cellspacing="0" style="background-color:#505050; border:1px solid #353535; border-radius:5px;">
-                                                        <tr>
-                                                            <td align="center" valign="middle" style="color:#FFFFFF; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:bold; letter-spacing:-.5px; line-height:150%; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px;">
-                                                                <a href="http://www.mailchimp.com/blog/" target="_blank" style="color:#FFFFFF; text-decoration:none;">Read More Stories On Our Blog</a
+      tr {
+        border: solid green 1px;
+      }
+
+      td {
+        border: solid blue 1px;
+      } */
+    </style>
+  </head>
+
+  <body>
+    <!-- // Begin Module: Outer most table of body \\ -->
+    <table
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      height="100%"
+      width="100%"
+      id="bodyTable"
+    >
+      <tr>
+        <td align="center" valign="top">
+          <!-- // Begin Module: Email document that is a width of 600px \\ -->
+          <table
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            width="600"
+            id="emailContainer"
+          >
+            <!-- // Begin Module: view online header \\ -->
+            <tr>
+              <td align="center" valign="top">
+                <table
+                  border="0"
+                  cellpadding="8"
+                  cellspacing="0"
+                  width="100%"
+                  id="emailHeader"
+                >
+                  <tr>
+                    <td align="center" valign="top">
+                      <p>
+                        Email not displaying correctly?
+                        <a href="%%view_online%%">View Online.</a>
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- // End Module: view online header \\ -->
+
+            <!-- // Begin Module: TITLE HEADER\ -->
+            <tr>
+              <td align="center" valign="top">
+                <table
+                  border="0"
+                  cellpadding="20"
+                  cellspacing="0"
+                  width="100%"
+                  id="emailHeader"
+                >
+                  <tr>
+                    <td align="center" valign="top">
+                      <h1
+                        style="margin: 20px 0 0 0; font-family:sans-serif; font-size: 60px; letter-spacing: 3px; color: rgb(60,129,78);"
+                      >
+                        <span style="color: rgb(194,207,190)">THE</span>LEAFLET
+                      </h1>
+                      <p
+                        style="margin: 0 0 0 0; font-family:sans-serif; font-size: 14px; color: rgb(86,86,86); letter-spacing: 5px;"
+                      >
+                        A CASEY TREES NEWSLETTER
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- // End Module: TITLE HEADER \\ -->
+
+            <!-- // Begin Module: ARTICLE 1, left picture with right text\ -->
+            <tr>
+              <td>
+                <table
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  style="background-color:#FFFFFF;"
+                >
+                  <tr>
+                    <td
+                      align="center"
+                      width="50%"
+                      style="padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px;"
+                    >
+                      <img
+                        src="http://placekitten.com/260/260"
+                        class="captionImage"
+                        style="display:block; padding: 0;"
+                      />
+                    </td>
+                    <td
+                      valign="top"
+                      style="color:#505050; font-family: sans-serif; font-size:12px; line-height:100%; padding-top:10px; padding-right;10px; padding-bottom:10px; padding-left:10px;"
+                    >
+                      <table>
+                        <tr>
+                          <td valign="middle" width="100%">
+                            <p>
+                              The Eiffel Tower, designed by Gustave Eiffel and
+                              built in 1889, is located in Paris, France. For 41
+                              years, it was the tallest man-made structure in
+                              the world.
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              The Eiffel Tower, designed by Gustave Eiffel and
+                              built in 1889, is located in Paris, France. For 41
+                              years, it was the tallest man-made structure in
+                              the world.
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- // End Module: ARTICLE 1 \\ -->
+
+            <!-- // Begin Module: BUTTONS\ -->
+            <tr>
+              <td>
+                <table
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  width="600"
+                  id="templateColumns"
+                >
+                  <tr>
+                    <!-- // Begin Module: LEFT BUTTON\ -->
+                    <td
+                      align="center"
+                      valign="top"
+                      width="50%"
+                      class="templateColumnContainer"
+                    >
+                      <table
+                        border="0"
+                        cellpadding="10"
+                        cellspacing="0"
+                        width="100%"
+                      >
+                        <tr>
+                          <td valign="top" class="leftColumnContent">
+                            <table
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              style="background-color:#505050; border:1px solid #353535; border-radius:5px;"
+                            >
+                              <tr>
+                                <td
+                                  align="center"
+                                  valign="middle"
+                                  style="color:#FFFFFF; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:bold; letter-spacing:-.5px; line-height:150%; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px;"
+                                >
+                                  <a
+                                    href="https://caseytrees.org/resources/"
+                                    target="_blank"
+                                    style="color:#FFFFFF; text-decoration:none;"
+                                    >Read More Stories On Our Blog</a
                                   >
                                 </td>
                               </tr>
@@ -103,6 +195,9 @@
                         </tr>
                       </table>
                     </td>
+                    <!-- // End Module: LEFT BUTTON\ -->
+
+                    <!-- // Begin Module: RIGHT BUTTON\ -->
                     <td
                       align="center"
                       valign="top"
@@ -142,6 +237,38 @@
                         </tr>
                       </table>
                     </td>
+                    <!-- // End Module: RIGHT BUTTON\ -->
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- // End Module: Buttone\ -->
+
+            <!-- // Begin Module: ARTICLE 2\ -->
+            <tr>
+              <td align="center" valign="top">
+                <table
+                  border="0"
+                  cellpadding="10"
+                  cellspacing="0"
+                  style="background-color:#FFFFFF;"
+                >
+                  <tr>
+                    <td align="center" width="50%">
+                      <img
+                        src="http://placekitten.com/160/160"
+                        class="captionImage"
+                        style="display:block;"
+                      />
+                    </td>
+                    <td
+                      valign="top"
+                      style="color:#505050; font-family: sans-serif; font-size:12px; line-height:100%; padding-top:10px; padding-right;10px; padding-bottom:10px; padding-left:10px;"
+                    >
+                      The Eiffel Tower, designed by Gustave Eiffel and built in
+                      1889, is located in Paris, France. For 41 years, it was
+                      the tallest man-made structure in the world.
+                    </td>
                   </tr>
                 </table>
               </td>
@@ -150,67 +277,25 @@
               <td align="center" valign="top">
                 <table
                   border="0"
-                  cellpadding="20"
+                  cellpadding="10"
                   cellspacing="0"
-                  width="100%"
-                  id="emailBody"
+                  style="background-color:#FFFFFF;"
                 >
                   <tr>
-                    <td align="center" valign="top">
-                      <table
-                        border="0"
-                        cellpadding="0"
-                        cellspacing="0"
-                        style="background-color:#FFFFFF; border:1px solid #CCCCCC;"
-                      >
-                        <tr>
-                          <td align="center" width="50%">
-                            <img
-                              src="http://placekitten.com/g/160/160"
-                              class="captionImage"
-                              style="display:block;"
-                            />
-                          </td>
-                          <td
-                            valign="top"
-                            style="color:#505050; font-family:Georgia, sans-serif; font-size:12px; line-height:100%; padding-top:10px; padding-right;10px; padding-bottom:10px; padding-left:10px;"
-                          >
-                            The Eiffel Tower, designed by Gustave Eiffel and
-                            built in 1889, is located in Paris, France. For 41
-                            years, it was the tallest man-made structure in the
-                            world.
-                          </td>
-                        </tr>
-                      </table>
+                    <td align="center" width="50%">
+                      <img
+                        src="http://placekitten.com/g/160/160"
+                        class="captionImage"
+                        style="display:block;"
+                      />
                     </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top">
-                      <table
-                        border="0"
-                        cellpadding="0"
-                        cellspacing="0"
-                        style="background-color:#FFFFFF; border:1px solid #CCCCCC;"
-                      >
-                      <tr>
-                        <td align="center" width="50%">
-                          <img
-                            src="http://placekitten.com/g/160/160"
-                            class="captionImage"
-                            style="display:block;"
-                          />
-                        </td>
-                        <td
-                          valign="top"
-                          style="color:#505050; font-family:Georgia, sans-serif; font-size:12px; line-height:100%; padding-top:10px; padding-right;10px; padding-bottom:10px; padding-left:10px;"
-                        >
-                          The Eiffel Tower, designed by Gustave Eiffel and
-                          built in 1889, is located in Paris, France. For 41
-                          years, it was the tallest man-made structure in the
-                          world.
-                        </td>
-                      </tr>
-                      </table>
+                    <td
+                      valign="top"
+                      style="color:#505050; font-family: sans-serif; font-size:12px; line-height:100%; padding-top:10px; padding-right;10px; padding-bottom:10px; padding-left:10px;"
+                    >
+                      The Eiffel Tower, designed by Gustave Eiffel and built in
+                      1889, is located in Paris, France. For 41 years, it was
+                      the tallest man-made structure in the world.
                     </td>
                   </tr>
                 </table>
@@ -253,18 +338,17 @@
                   <tr>
                     <td align="center" valign="top">
                       <a href="%%unsubscribe%%"> Unsubscribe </a> |
-                                                                <a href="%%email_preference_center%%">
+                      <a href="%%email_preference_center%%">
                         Email preferences
                       </a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-</body>
-
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
 </html>
