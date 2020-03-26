@@ -24,11 +24,41 @@
         mso-table-lspace: 0pt;
         mso-table-rspace: 0pt;
       } /* Remove spacing between tables in Outlook 2007 and up */
+      @media screen and (max-width: 525px) {
+        .enclosing-table {
+          background: rgb(255, 255, 255) !important;
+        }
+        tr,
+        td {
+          display: block !important;
+          width: 96% !important;
+        }
+        .email-container {
+          max-width: 96% !important;
+        }
+        .title {
+          font-size: 80px !important;
+        }
+        .subtitle {
+          font-size: 24px !important;
+        }
+        .green-buttons {
+          width: 600px !important;
+          font-size: 28px !important;
+        }
+        .img-1__browser {
+          display: none !important;
+        }
+        .img-1__responsive {
+          display: block !important;
+        }
+      }
     </style>
   </head>
   <body>
     <!-- // Begin Module: Outer most table of body \\ -->
     <table
+      class="enclosing-table"
       border="0"
       cellpadding="0"
       cellspacing="0"
@@ -40,6 +70,7 @@
         <td align="center" valign="top">
           <!-- // Begin Module: Email document that is a width of 600px \\ -->
           <table
+            class="email-container"
             border="0"
             cellpadding="20"
             cellspacing="0"
@@ -76,11 +107,13 @@
                   <tr>
                     <td align="center" valign="top">
                       <h1
+                        class="title"
                         style="margin: 0 0 0 0; font-family:sans-serif; font-size: 60px; letter-spacing: 4px; color: rgb(60,129,78);"
                       >
                         <span style="color: rgb(194,207,190)">THE</span>LEAFLET
                       </h1>
                       <p
+                        class="subtitle"
                         style="font-weight: 520; margin: 0 0 0 0; font-family:sans-serif; font-size: 16px; color: rgb(86,86,86); letter-spacing: 6px;"
                       >
                         A CASEY TREES NEWSLETTER
@@ -103,13 +136,20 @@
                 >
                   <tr>
                     <td
+                      class="img-1__td"
                       align="center"
                       width="50%"
                       style="padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px;"
                     >
                       <img
+                        class="img-1__browser"
                         src="http://placekitten.com/260/260"
                         style="display:block;"
+                      />
+                      <img
+                        class="img-1__responsive"
+                        src="http://placekitten.com/560/560"
+                        style="display:none;"
                       />
                     </td>
                     <td
@@ -146,7 +186,7 @@
 
             <!-- // Begin Module: Buttons Container\ -->
             <tr>
-              <td>
+              <td align="center">
                 <table border="0" cellpadding="5" cellspacing="0">
                   <tr>
                     <!-- // Begin Module: LEFT BUTTON\ -->
@@ -158,6 +198,7 @@
                             <center>
                           <![endif]-->
                         <a
+                          class="green-buttons"
                           href="https://caseytrees.org/give/evergreen-membership-donation-form/"
                           style="background-color:#2b653a;border-radius:5px;color:#ffffff;display:inline-block;font-family:'Lato',Helvetica,sans-serif;font-size:20px;font-weight:bold;line-height:80px;text-align:center;text-decoration:none;width:296px;-webkit-text-size-adjust:none;"
                           >DO NOT WATER!</a
@@ -180,6 +221,7 @@
                               <center>
                             <![endif]-->
                         <a
+                          class="green-buttons"
                           href="https://caseytrees.org/give/evergreen-membership-donation-form/"
                           style="background-color:#2b653a;border-radius:5px;color:#ffffff;display:inline-block;font-family:'Lato',Helvetica,sans-serif;font-size:20px;font-weight:bold;line-height:80px;text-align:center;text-decoration:none;width:296px;-webkit-text-size-adjust:none;"
                           >Get a FREE rain gauge</a
